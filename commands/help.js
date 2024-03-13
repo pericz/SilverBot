@@ -60,8 +60,7 @@ module.exports = {
        .setImage('https://cdn.discordapp.com/attachments/1087861411604090924/1217603518882386071/d5b13520dfd3d0d5199773aed1271089465a4ba2.gif?ex=6604a0a4&is=65f22ba4&hm=8275c282f92ea2630e3e4c38ecffad10ea402d08958c4e294beb385611a61aa1&')
 
       interaction.reply({
-        embeds: [musicCommandsEmbed, basicCommandsEmbed],
-        components: [row]
+        embeds: [musicCommandsEmbed, basicCommandsEmbed]
       }).catch(e => {});
     } catch (e) {
       console.error(e);
